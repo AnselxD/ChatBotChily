@@ -4,6 +4,7 @@ const BaileysProvider = require('@bot-whatsapp/provider/baileys')
 const MongoAdapter = require('@bot-whatsapp/database/mongo')
 const path = require("path")
 const fs = require("fs")
+require('dotenv').config()
 
 function readFileSyncWithCheck(filePath) {
     if (fs.existsSync(filePath)) {
@@ -27,44 +28,41 @@ const direcSucre = readFileSyncWithCheck(direcSucrePath)
 const bienvenidainicialPath = path.join(__dirname, "mensajes", "bienvenidainicial.txt")
 const bienvenidainicial = readFileSyncWithCheck(bienvenidainicialPath)
 
-
 const flowSucre = addKeyword("¿Cual es la dirección de Sucre por favor?")
     .addAnswer(bienvenidainicial)
     .addAnswer(direcSucre, { delay: 2000 })
-    .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 }) // Luego enviar el mensaje completo
+    .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 })
     .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_ te responderá cuanto antes. 😊", { delay: 700 })
-
 
 const flowCochabamba = addKeyword("¿Cual es la dirección de Cochabamba por favor?")
     .addAnswer(bienvenidainicial)
     .addAnswer(direcCochabamba, { delay: 2000 })
     .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 })
-    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_  te responderá cuanto antes. 😊", { delay: 700 })
+    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_ te responderá cuanto antes. 😊", { delay: 700 })
 
 const flowLaPaz = addKeyword("¿Cual es la dirección de La Paz por favor?")
     .addAnswer(bienvenidainicial)
     .addAnswer(direcLaPaz, { delay: 2000 })
     .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 })
-    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_  te responderá cuanto antes. 😊", { delay: 700 })
+    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_ te responderá cuanto antes. 😊", { delay: 700 })
 
-    const flowPotosi = addKeyword(["¿Cual es la dirección de Potosi por favor?","¿Cual es la dirección de Potosí por favor?"])
+const flowPotosi = addKeyword(["¿Cual es la dirección de Potosi por favor?", "¿Cual es la dirección de Potosí por favor?"])
     .addAnswer(bienvenidainicial)
-    .addAnswer(direcPotosi, { delay: 2000,})
-    .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 });
+    .addAnswer(direcPotosi, { delay: 2000 })
+    .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 })
 
 const flowCatalogo = addKeyword("Quiero ver el catálogo por favor")
     .addAnswer(bienvenidainicial)
     .addAnswer("Por supuesto, este es nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 1500 })
     .addAnswer(direcCatalogo, { delay: 2000 })
-    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_  te responderá cuanto antes. 😊", { delay: 700 })
+    .addAnswer("Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_ te responderá cuanto antes. 😊", { delay: 700 })
 
-    
 const main = async () => {
     const adapterDB = new MongoAdapter({
         dbUri: process.env.MONGO_URI,
         dbName: "DBBotChily",
     })
-    const adapterFlow = createFlow([flowSucre, flowCochabamba, flowLaPaz, flowPotosi,flowCatalogo])
+    const adapterFlow = createFlow([flowSucre, flowCochabamba, flowLaPaz, flowPotosi, flowCatalogo])
     const adapterProvider = createProvider(BaileysProvider)
     createBot({
         flow: adapterFlow,

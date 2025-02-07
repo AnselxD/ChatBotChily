@@ -2,131 +2,10 @@
   key: {
     remoteJid: '59175476365@s.whatsapp.net',
     fromMe: false,
-    id: 'FD87EFEB61A3D55AAF5A929880577A7B',
+    id: 'CFC148F865448ADC5DFEC249C53E8503',
     participant: undefined
   },
-  messageTimestamp: 1738943994,
-  pushName: 'Jhasmin',
-  broadcast: false,
-  message: Message {
-    conversation: 'La Paz: ¿Cual es la dirección de La Paz por favor?',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'La Paz: ¿Cual es la dirección de La Paz por favor?',
-  from: '59175476365'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_d4ce0195-4984-4109-aea1-30acd894afe0',
-  keyword: 'key_12fd7fc1-e92e-4874-bc3b-4e43c0e5b451',
-  answer: ' ┌───── ∘°❉°∘ ─────┐\r\n' +
-    '_Bienvenid@_  _a_  *Chily Beauty* \r\n' +
-    ' └───── °∘❉∘° ─────┘',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '282526eb78fbcff8256802351252082d'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_ba3d549c-4fa0-423a-9a8f-7c23e77aa513',
-  keyword: 'ans_d4ce0195-4984-4109-aea1-30acd894afe0',
-  answer: 'Nuestra dirección en :\r\n' +
-    '\r\n' +
-    '                    _*La Paz*_ \r\n' +
-    '\r\n' +
-    '     ═════ ❀∘❀∘❀ ═════\r\n' +
-    ' _*Dirección :*_  \r\n' +
-    'Av. 20 de Octubre\r\n' +
-    'entre Aspiazu y J.J Peres\r\n' +
-    'frente a *Mujeres Creando*\r\n' +
-    '                    \r\n' +
-    '_*Google Maps :*_ \r\n' +
-    'https://maps.app.goo.gl/YJd4bTp2S3bb6juh7\r\n' +
-    '\r\n' +
-    '\r\n' +
-    '_*Dirección guiada por TikTok :*_\r\n' +
-    'https://vm.tiktok.com/ZMkgpmCGn/\r\n' +
-    '     ═════ ❀∘❀∘❀ ═════\r\n' +
-    '\r\n' +
-    '                  Atendemos :\r\n' +
-    '\r\n' +
-    '             ⏰De lunes a viernes\r\n' +
-    '            *De* 10:00 am *a* 7:00 pm\r\n' +
-    '\r\n' +
-    '                    ⏰sábado\r\n' +
-    '            *De* 10:00 am *a* 5:00 pm\r\n' +
-    '\r\n' +
-    'Te esperamos 😊, animate a visitarnos!',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 2000,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'e82794f13ac1fc230fd327badd487de2'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_59134fa3-0d87-4267-8b0a-23bf9b667057',
-  keyword: 'ans_ba3d549c-4fa0-423a-9a8f-7c23e77aa513',
-  answer: 'Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 800,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: '7b668e1e74feb3e16d69b8d73bb03f1b'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_3ac67e67-975b-4262-9caf-f3b2a4b4369f',
-  keyword: 'ans_59134fa3-0d87-4267-8b0a-23bf9b667057',
-  answer: 'Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_  te responderá cuanto antes. 😊',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 700,
-    idle: null,
-    ref: null,
-    nested: [],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'f7abfb15e0afdd81231db5def9d330c8'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '59175476365@s.whatsapp.net',
-    fromMe: false,
-    id: 'F2DB26361DE961C7E207B21F10F29EB0',
-    participant: undefined
-  },
-  messageTimestamp: 1738944023,
+  messageTimestamp: 1738955907,
   pushName: 'Jhasmin',
   broadcast: false,
   message: Message {
@@ -141,8 +20,8 @@
   from: '59175476365'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_817c878b-04e2-49fc-ad0f-88435c69a29e',
-  keyword: 'key_d5a68b04-b924-4ec5-aa56-7cc7135c908d',
+  ref: 'ans_0ffa6993-31f1-410d-9a73-b3361f376662',
+  keyword: 'key_17695e1d-aa81-435b-8f97-419d3a8e26bf',
   answer: ' ┌───── ∘°❉°∘ ─────┐\r\n' +
     '_Bienvenid@_  _a_  *Chily Beauty* \r\n' +
     ' └───── °∘❉∘° ─────┘',
@@ -158,11 +37,11 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '2f218f35e36e28b150a8b43a62caa4a2'
+  refSerialize: '826a58cd6c69b6c25b234e2b4c14413c'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_6e87906d-3f0e-49fe-8a41-b1aacbd5011d',
-  keyword: 'ans_817c878b-04e2-49fc-ad0f-88435c69a29e',
+  ref: 'ans_2eb8c039-4f31-4dff-b2d5-9a6c033b039f',
+  keyword: 'ans_0ffa6993-31f1-410d-9a73-b3361f376662',
   answer: 'Estamos cada vez llegando a más departamentos 🤗, sin embargo aun no tenemos una tienda física en *Potoí* 💔 \r\n' +
     'pero... \r\n' +
     '\r\n' +
@@ -196,5 +75,23 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '6124f4de18b40f9816c9041f956a4cb3'
+  refSerialize: '0e289fb877c40c5ba43ba311f60a4aa7'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_e25cc511-a2bd-4d1b-8219-03c421166652',
+  keyword: 'ans_2eb8c039-4f31-4dff-b2d5-9a6c033b039f',
+  answer: 'Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 800,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'ce13786e817b966d5f6c102e0598ce8c'
 }
