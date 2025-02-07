@@ -2,26 +2,26 @@
   key: {
     remoteJid: '59175476365@s.whatsapp.net',
     fromMe: false,
-    id: '8B68AC0B77A1EC2866EA879520F62821',
+    id: 'FD87EFEB61A3D55AAF5A929880577A7B',
     participant: undefined
   },
-  messageTimestamp: 1738936689,
+  messageTimestamp: 1738943994,
   pushName: 'Jhasmin',
   broadcast: false,
   message: Message {
-    conversation: '¿Cual es la dirección de potosi por favor?',
+    conversation: 'La Paz: ¿Cual es la dirección de La Paz por favor?',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: '¿Cual es la dirección de potosi por favor?',
+  body: 'La Paz: ¿Cual es la dirección de La Paz por favor?',
   from: '59175476365'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_5e86e390-52ba-4997-89b1-295dd2e0a1f8',
-  keyword: 'key_4b58d846-f557-4a52-aee6-73984a97fde7',
+  ref: 'ans_d4ce0195-4984-4109-aea1-30acd894afe0',
+  keyword: 'key_12fd7fc1-e92e-4874-bc3b-4e43c0e5b451',
   answer: ' ┌───── ∘°❉°∘ ─────┐\r\n' +
     '_Bienvenid@_  _a_  *Chily Beauty* \r\n' +
     ' └───── °∘❉∘° ─────┘',
@@ -37,19 +37,164 @@
     keyword: {},
     callback: false
   },
-  refSerialize: '6270e1d3982f3ee77bba5658d415cb6d'
+  refSerialize: '282526eb78fbcff8256802351252082d'
 }
-[ERROR ID (ans_590ee309-44b7-443f-b1c6-41a64b57f758)]:  TypeError: Invalid URL
-    at new URL (node:internal/url:797:36)
-    at handleDownload (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\provider\lib\baileys\index.cjs:136:35)
-    at generalDownload$1 (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\provider\lib\baileys\index.cjs:182:32)
-    at BaileysProvider.sendMedia (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\provider\lib\baileys\index.cjs:580:38)
-    at BaileysProvider.sendMessage (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\provider\lib\baileys\index.cjs:735:41)
-    at CoreClass.sendProviderAndSave (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:1561:46)
-    at Object.promiseInFunc (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:1238:36)
-    at C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:531:38
-    at Array.map (<anonymous>)
-    at Queue.processQueue (C:\Users\Admin\OneDrive\Escritorio\ChatBotChilySimple\base-baileys-memory\node_modules\@bot-whatsapp\bot\lib\bundle.bot.cjs:526:45) {
-  code: 'ERR_INVALID_URL',
-  input: 'base-baileys-memory/media/Chily Potosi.mp4'
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_ba3d549c-4fa0-423a-9a8f-7c23e77aa513',
+  keyword: 'ans_d4ce0195-4984-4109-aea1-30acd894afe0',
+  answer: 'Nuestra dirección en :\r\n' +
+    '\r\n' +
+    '                    _*La Paz*_ \r\n' +
+    '\r\n' +
+    '     ═════ ❀∘❀∘❀ ═════\r\n' +
+    ' _*Dirección :*_  \r\n' +
+    'Av. 20 de Octubre\r\n' +
+    'entre Aspiazu y J.J Peres\r\n' +
+    'frente a *Mujeres Creando*\r\n' +
+    '                    \r\n' +
+    '_*Google Maps :*_ \r\n' +
+    'https://maps.app.goo.gl/YJd4bTp2S3bb6juh7\r\n' +
+    '\r\n' +
+    '\r\n' +
+    '_*Dirección guiada por TikTok :*_\r\n' +
+    'https://vm.tiktok.com/ZMkgpmCGn/\r\n' +
+    '     ═════ ❀∘❀∘❀ ═════\r\n' +
+    '\r\n' +
+    '                  Atendemos :\r\n' +
+    '\r\n' +
+    '             ⏰De lunes a viernes\r\n' +
+    '            *De* 10:00 am *a* 7:00 pm\r\n' +
+    '\r\n' +
+    '                    ⏰sábado\r\n' +
+    '            *De* 10:00 am *a* 5:00 pm\r\n' +
+    '\r\n' +
+    'Te esperamos 😊, animate a visitarnos!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'e82794f13ac1fc230fd327badd487de2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_59134fa3-0d87-4267-8b0a-23bf9b667057',
+  keyword: 'ans_ba3d549c-4fa0-423a-9a8f-7c23e77aa513',
+  answer: 'Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 800,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '7b668e1e74feb3e16d69b8d73bb03f1b'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_3ac67e67-975b-4262-9caf-f3b2a4b4369f',
+  keyword: 'ans_59134fa3-0d87-4267-8b0a-23bf9b667057',
+  answer: 'Si tienes alguna otra consulta 🤔, no dudes en escribirnos, _*Asesor de Ventas*_  te responderá cuanto antes. 😊',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 700,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'f7abfb15e0afdd81231db5def9d330c8'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '59175476365@s.whatsapp.net',
+    fromMe: false,
+    id: 'F2DB26361DE961C7E207B21F10F29EB0',
+    participant: undefined
+  },
+  messageTimestamp: 1738944023,
+  pushName: 'Jhasmin',
+  broadcast: false,
+  message: Message {
+    conversation: '¿Cual es la dirección de Potosí por favor?',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: '¿Cual es la dirección de Potosí por favor?',
+  from: '59175476365'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_817c878b-04e2-49fc-ad0f-88435c69a29e',
+  keyword: 'key_d5a68b04-b924-4ec5-aa56-7cc7135c908d',
+  answer: ' ┌───── ∘°❉°∘ ─────┐\r\n' +
+    '_Bienvenid@_  _a_  *Chily Beauty* \r\n' +
+    ' └───── °∘❉∘° ─────┘',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2f218f35e36e28b150a8b43a62caa4a2'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_6e87906d-3f0e-49fe-8a41-b1aacbd5011d',
+  keyword: 'ans_817c878b-04e2-49fc-ad0f-88435c69a29e',
+  answer: 'Estamos cada vez llegando a más departamentos 🤗, sin embargo aun no tenemos una tienda física en *Potoí* 💔 \r\n' +
+    'pero... \r\n' +
+    '\r\n' +
+    '✈️ *!Ya tenemos fecha para visitar Potoí!* 🥳\r\n' +
+    '\r\n' +
+    '     ═════ ❀∘❀∘❀ ═════\r\n' +
+    '                 _Hoy_\r\n' +
+    '📍 _*VIERNES 7 de FEBRERO*_  ✅\r\n' +
+    '\r\n' +
+    '👉 Estaremos ubicados \r\n' +
+    'sobre la Chayanta #904 entre 1ro de Abril y Serrudo\r\n' +
+    '\r\n' +
+    ' _*Dirección :*_  \r\n' +
+    '_*Google Maps :*_\r\n' +
+    'https://maps.app.goo.gl/VR7g77GqTJviyr8aA\r\n' +
+    '     ═════ ❀∘❀∘❀ ═════\r\n' +
+    '\r\n' +
+    '                 _*Salón de eventos*_\r\n' +
+    '        🕙De 10:00 am a 🕙7:00 pm\r\n' +
+    '\r\n' +
+    'Es una oportunidad que no puedes dejar pasar 😎, te esperamos como siempre con todas las tendencias y la mejor calidad, no te lo pierdas! 😉\r\n',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 2000,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '6124f4de18b40f9816c9041f956a4cb3'
 }

@@ -1,7 +1,7 @@
 const { createBot, createProvider, createFlow, addKeyword, EVENTS } = require('@bot-whatsapp/bot')
 const QRPortalWeb = require('@bot-whatsapp/portal')
 const BaileysProvider = require('@bot-whatsapp/provider/baileys')
-const MockAdapter = require('@bot-whatsapp/database/mock')
+const MongoAdapter = require('@bot-whatsapp/database/mongo')
 const path = require("path")
 const fs = require("fs")
 
@@ -49,7 +49,8 @@ const flowLaPaz = addKeyword("¿Cual es la dirección de La Paz por favor?")
 
     const flowPotosi = addKeyword(["¿Cual es la dirección de Potosi por favor?","¿Cual es la dirección de Potosí por favor?"])
     .addAnswer(bienvenidainicial)
-    .addAnswer(direcPotosi, { delay: 2000,});
+    .addAnswer(direcPotosi, { delay: 2000,})
+    .addAnswer("Te invito a ver nuestro catálogo de productos 😇 👉 https://wa.me/c/59175987720 👌", { delay: 800 });
 
 const flowCatalogo = addKeyword("Quiero ver el catálogo por favor")
     .addAnswer(bienvenidainicial)
@@ -59,7 +60,10 @@ const flowCatalogo = addKeyword("Quiero ver el catálogo por favor")
 
     
 const main = async () => {
-    const adapterDB = new MockAdapter()
+    const adapterDB = new MongoAdapter({
+        dbUri: process.env.MONGO_URI,
+        dbName: "DBBotChily",
+    })
     const adapterFlow = createFlow([flowSucre, flowCochabamba, flowLaPaz, flowPotosi,flowCatalogo])
     const adapterProvider = createProvider(BaileysProvider)
     createBot({
